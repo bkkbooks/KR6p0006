@@ -1,0 +1,80 @@
+canonical_identifier: bkk:krp/KR6p0006/v1
+canonical_location: https://kanripo.org/bkk/KR6p0006/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 觀無量壽經疏妙宗鈔科
+  identifiers:
+    alt_id:
+    - X22n0406
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0406.xml
+    old_id: X22n0406
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0006_000.yaml, hash: 'sha256:8aee0ff1d2626584e066e594d4b6acf00aaf8cd63beb78fe001e45488ae69283'}
+  - {seq: 1, filename: KR6p0006_001.yaml, hash: 'sha256:1f39ce061b2c1f1b721d069e0da93a28b058c24fa5af47554191a035593b660b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6p0006_000.markers.yaml, hash: 'sha256:57a419ae5be177967eaa63c8566e29b695e1b268f11d8d8d8ed0199b17eb64ff'}
+  - {seq: 1, role: markers, filename: assets/KR6p0006_001.markers.yaml, hash: 'sha256:d6fba2a11f4676051978364d4e14a6b5ef01bf8652967e4723f9c1ea33ed32f6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6p0006_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 406-A 御製觀無量壽佛經序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6p0006_X_000-mulu-2
+    span:
+    - front
+    - 481
+    - 481
+  label: No. 406-B 重刻觀經疏鈔序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6p0006_X_000-mulu-3
+    span:
+    - front
+    - 729
+    - 729
+  label: 科文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0006_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 4668
+  label: 佛說觀無量壽佛經疏妙宗鈔科文
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0006_X_001-mulu-1
+    span:
+    - body
+    - 4586
+    - 4586
+  label: 音釋
+  type: mulu
+  level: 1
+hash: sha256:a13da0956f34fd5c93aadeeda5b9f3357a5181255a43453ec09743d7dc9d907c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: X
