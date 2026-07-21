@@ -19,17 +19,17 @@ metadata:
     short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6p0006_000-X.yaml, hash: 'sha256:2c1012b249f47da915f4a70e263b0fabb4c62b5f156095714180e88439695307'}
+  - {seq: 0, filename: KR6p0006_000-X.yaml, hash: 'sha256:095c5d4825ceb743aff36a92fb7a8a773af0cd05adb735000acca475f2c18dcb'}
   - {seq: 1, filename: KR6p0006_001-X.yaml, hash: 'sha256:f16fbc3e66fcd6f85a89a35abafa9c22c51f437191e6428472d156320d376f29'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6p0006_000-X.markers.yaml, hash: 'sha256:1a60a397b9ee415137228eb2bcc7ad8233ded4fd10787776bcbe6a0a8df9ee9b'}
+  - {seq: 0, role: markers, filename: assets/KR6p0006_000-X.markers.yaml, hash: 'sha256:ab5ab9be0823c0872fca407d9383fe756786a81f81b1c5060cbd43d9af0d9707'}
   - {seq: 1, role: markers, filename: assets/KR6p0006_001-X.markers.yaml, hash: 'sha256:754b3185b981e3ae274dd28d8266985f83cbb23540137f60a7676bad68d6838e'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6p0006_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 406-A 御製觀無量壽佛經序
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6p0006_X_000-mulu-2
     span:
-    - front
+    - body
     - 481
     - 481
   label: No. 406-B 重刻觀經疏鈔序
@@ -49,7 +49,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6p0006_X_000-mulu-3
     span:
-    - front
+    - body
     - 729
     - 729
   label: 科文
@@ -75,4 +75,4 @@ table_of_contents:
   label: 音釋
   type: mulu
   level: 1
-hash: sha256:a235370e1659334e18e9dbad49978794b33e00354cdbfc370d18221904a46a03
+hash: sha256:a546491f897fe41f6b83836d1077df0e995857ad4260682d29b87b4a864a25b4
